@@ -1,0 +1,33 @@
+:root{
+    --color-primary: #E76F51;
+    --color-bg:#264653;
+    --color-light:#ffffff;
+}
+
+
+
+header{
+    background: var(--color-bg);
+   
+}
+.button-primary{
+    background-color: var(--color-primary);
+    color: var(--color-light);
+}
+.button-outline-primary{
+    color: var(--color-primary);
+    border: 1px solid var(--color-primary);
+}
+.clr-primary{
+    color: var(--color-primary);
+}
+.rating-icon{
+    width: 20px;
+}
+#menu-icon{
+    color: var(--color-light);
+    border: 2px solid #ffffff;
+}
+#menu-icon:hover{
+    border: none;
+}
